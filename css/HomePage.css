@@ -1,0 +1,969 @@
+/* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  /* Add a background color to the page */
+body {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the header */
+  .header {
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-content img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .address-text {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-book {
+    color: #2196F3;
+  }
+  
+  /* Style the add button */
+  .add-button {
+    display: inline-block;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .add-button:hover {
+    background-color: #0c7cd5;
+  }
+  
+  /* Style the person details */
+  .person-detail-text {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .person-count {
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  
+  /* Style the table */
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table td, .table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    margin: 50px auto;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .person-count {
+    margin-left: 10px;
+  }
+  
+  /* Add media queries for responsive design */
+  @media screen and (max-width: 768px) {
+    .main-content {
+      width: 90%;
+    }
+    
+    .logo-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .logo-content img {
+      margin-bottom: 10px;
+    }
+    
+    .add-button {
+      margin-top: 20px;
+      margin-left: 0;
+    }
+  }
+  
